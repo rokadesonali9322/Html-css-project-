@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+/* main container style */
+.main-container{
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+/*leftside facebook heading section */
+ .facebook_heading{
+     width: 50vw;
+    margin:  9rem 0;
+ }
+.facebook_heading h1{
+   font-size:3.2rem;
+    color:black;
+    padding:3rem 0 .5rem 11rem;
+    color: #1877f2;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.facebook_heading h2{
+    font-size:1.8rem;
+    word-spacing: 3px;
+    color: rgb(97, 96, 96);
+    padding-left: 11rem;
+
+}
+
+/* rightside login section style */
+.login-container{
+    width: 40vw;
+    margin:  6.5rem 0;
+    padding: 2rem;
+}
+.login-container #login{
+    width: 26vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+
+}
+.login-container #login input{
+    padding:  1rem;
+    outline: none;
+    border: 1px solid rgb(132, 131, 131);
+    background-color: #f0f2f5;
+    margin: .7rem 1rem ;
+    color:rgb(103, 101, 101);
+    border-radius:6px;
+    font-size:18px;
+}
+#login input[type="submit"]{
+    background-color:#1877f2;
+    font-size: 1.1rem;
+    color: white;
+    border: 1px solid #1877f2;
+    cursor: pointer;
+}
+#login span{
+    text-align: center;
+}
+#login span a{
+    text-decoration: none;
+     color:#01A6f0; 
+}
+#line{ 
+    width: 24rem;
+   margin: 20px auto;
+   border-bottom: 1px solid rgb(93, 92, 92);
+}
+#login button{
+    width: 13rem;
+    margin: 5px auto;
+    padding: .9rem;
+    color: white;
+    background-color: #42b72a;;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size:17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* footer section */
+.login-container p{
+    width: 26vw;
+    text-align: center;
+     padding: 1rem ; 
+    color:rgb(45, 44, 44);
+    font-size: 17px
+}
+.login-container  a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-container  a:hover{
+    text-decoration: underline;
+}

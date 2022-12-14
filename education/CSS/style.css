@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/* main-conatiner style */
+.main-conatiner{
+    width: 100vw;
+    height: 67vh;
+    background: url("../CSS/Img/eduction_background.png");
+   background-size:cover;
+   background-position: center;
+}
+.dark-shadow{
+    height: 67vh;
+    background-color: rgba(0,0,0,.4);
+}
+/* nav icon */
+ .icon-section{
+    width: 100vw;
+    height: 4vh;
+    background-color:rgba(0,0,0,.6);
+}
+.text-icon{
+    width: 90vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color:rgb(231, 229, 229);
+}
+.icon{
+  width: 20vw;
+  padding: 0 30px;
+}
+.icon i{
+    padding: 5px;
+}
+.icon-sidetext{
+    padding: 5px;
+}
+/* ........................................................................ */
+/*navbar section style */
+nav{
+     width: 90vw;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 10vh;
+}
+ nav .log{
+     width: 30vw;
+     display: flex;
+     align-items: center;
+}
+.log img{
+    height: 54px;
+    width: 70px;
+}
+ .log h2 {
+    font-size: 2rem;
+    font-weight:bold;
+    color: white;
+}
+.list-item ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+.list-item ul li{
+    list-style: none;
+}
+.list-item li a{
+    text-decoration: none;
+    color:white;
+    font-size:1rem;
+    font-weight: bold;
+}
+/* ...................................................................... */
+/* home conatiner  style*/
+.home-conatiner{
+    width: 90vw;
+    margin: auto;
+}
+.home-conatiner .text-section{
+    margin:4.5rem 0;    
+}
+.text-section h1{
+    max-width:55vw;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    word-spacing: 7px;
+}
+.text-section p{
+    max-width: 55vw;
+    font-size: 17px;
+    word-spacing: 3px;
+    color:rgb(223, 221, 221);
+    padding: 10px 0;
+}
+.text-section button{
+    padding: 8px 15px;
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+/* ........................................................................ */
+/* learning section */
+.learning{
+    width: 90vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.learning-section{
+    background-color:rgb(248, 245, 245);
+}
+.learning-section h1{
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    text-align: center;
+    background:linear-gradient(to top,rgba(59, 59, 158,.6),rgba(95, 157, 168,.6));
+}
+.learning-bottom p{
+    max-width:20vw;
+    color: rgb(163, 159, 159);
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 10px;
+}
+.learning-bottom h4 {
+    color:rgb(90, 89, 89);
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+/* ................................................................ */
+/* course section */
+.course-section {
+    width: 90vw;
+    margin: 3rem auto;
+}
+.course-section h1{
+ text-align: center;
+ font-size: 30px;
+}
+.course-section p{
+    text-align: 18px;
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}

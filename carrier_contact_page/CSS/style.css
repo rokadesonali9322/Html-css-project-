@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main container style */
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color:  #BAD9FC;
+    position: relative;
+}
+/* navbar */
+.main-container .navbar{
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    height: 30vh;
+    align-items: center;
+}
+  
+.navbar .logo{
+    width: 22%;
+}
+.navbar .logo img{
+    height:65px;
+    width:170px;
+}
+.navbar .list-item{
+    width:82% ;
+     list-style: none;
+}
+.navbar .list-item ul{
+    display: flex;
+    justify-content: space-around;
+   padding: 0 4rem;
+     list-style: none;
+}
+.list-item li a{
+    text-decoration: none;
+    color:rgb(2, 2, 22);
+    font-size: 1.3rem;
+    font-weight:520;
+}
+.list-item li a:hover{
+    font-family:  sans-serif;
+    font-weight: 550;
+    color: black;
+    transition: .1s ease;
+}
+.side-logo{
+    height: 6vh;
+    width: 20%;
+}
+.side-logo span i{
+    padding: 0 10px;
+    font-size: 1.3rem;
+    color: rgb(3, 3, 190);
+    cursor: pointer;
+}
+/* -------------------------------------------------------------- */
+
+/* second navbar */
+.second-navbar{
+    margin: auto;
+    width: 75vw;
+    height:3vh;
+}
+.second-navbar ul{
+    width: 13rem;
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+.second-navbar ul li a{
+    color:rgb(7, 7, 134);
+    font-size: 18px;
+    font-weight: bold;
+}
+.second-navbar ul li a:hover{
+   color: #4590e5;
+}
+.second-navbar span img{
+    height: 37px;
+    width: 20px;
+}
+.second-navbar .contact a{
+    text-decoration: none;
+}
+/* -------------------------------------------------------------- */
+/* home section style */
+.home-container{
+    height: 60vh;
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .heading-box h1{
+   padding: 4rem .2rem 2.5rem .2rem;
+    color:rgb(3, 3, 92);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.heading-box p{
+    max-width: 35rem;
+    font-size: 18px;
+    letter-spacing: .8px;
+    word-spacing: 1px;
+    color: black;
+}
+.home-container .img-section{
+    margin: 2rem 0;
+    padding: 0 2rem;
+    width: 580px;
+    height: 360px;
+}
+.img-section img{
+    width:480px;
+    height: 360px;
+}
+/* ------------------------------------------------------------ */
+/* footer style */
+.footer{
+    height: 7vh;
+    width: 100vw;
+    background-color:rgb(98, 97, 97);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: sticky;
+}
+ .leftside-footer p{
+font-size: 14px;
+color: white;
+}
+.rightside-footer button{
+    font-size: 14px;
+    background-color: black;
+    padding: 7px 20px;
+    color: white;
+    margin: 0 .2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.rightside-footer button:hover{
+    color: black;
+    background-color: white;
+}
+.rightside-footer a{
+    color: white;
+    font-size: 14px;
+}

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("../CSS/Img/flip2.png");
+}
+#body_shadow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid gray;
+    height: 100vh;
+   background-color: rgba(0,0,0,.6);
+
+}
+#filipkart_conatiner{
+    width:45vw;
+    height: 80vh;
+    display: flex;
+ 
+}
+/*leftside  text style*/
+#leftside{
+    width:15vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+   background-color: rgb(83, 103, 206);
+   padding: 1.5rem 1rem;
+}
+.logintext h1{
+    font-size: 1.8rem;
+    color: rgb(235, 229, 229);
+    padding: .9rem;
+}
+.logintext p{
+  padding: .3rem .9rem .6rem  .9rem;
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    letter-spacing: .3px;
+    color: rgb(209, 204, 204);
+    line-height: 23px;
+}
+/* rightside  style section*/
+#rightside{
+    background-color:hsl(0, 33%, 98%);
+    opacity: 1;
+    width: 30vw;
+  padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+/* login form */
+.loginform{
+    padding: 1rem .5rem .5rem .5rem;
+}
+ .loginform input,#forgot{
+     height: 2.3rem; 
+     margin: .6rem 0; 
+    font-size: 1rem;
+    padding: 10px;
+    outline: none;
+    background-color:#fcf7f7;
+}
+ .loginform  input[type=text],
+#password{
+    width: 26vw;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+}
+
+#password{
+    width: 20rem;
+}
+ a{
+    text-decoration: none;
+    color: blue;
+}
+#forgot a:hover{
+    text-decoration: underline;
+}
+#terms{
+    padding: 1.2rem .7rem .6rem .7rem;
+    font-size: 1rem;
+    color: rgb(74, 72, 72);
+}
+#terms span{
+    padding: 0 5px;
+}
+#submit input[type=submit]{
+    height: 3.1rem;
+    width: 26rem;
+    color: white;
+    background-color: #ff4500;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#or{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 5px;
+    color: rgb(144, 142, 142);
+}
+#request input[type=submit]{
+    height: 2.8rem;
+    width: 26rem;
+    color: #2874f0;
+    font-weight:550;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow:0 4px 6px 0 rgb(0 0  0 / 12%);
+}
+
+/* footer section style */
+#footer{
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 600;
+     margin: 1rem 1rem;
+      padding: 1rem;
+}
+
+
+/* cross close side section */
+#cross i{
+    font-size: 30px;
+    padding: 3px 10px;
+    border: none;
+    color: white;
+}
